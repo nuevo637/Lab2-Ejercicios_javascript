@@ -18,6 +18,8 @@ p {
     color: black;
     font-size: 25px;
     margin: 0;
+    user-select: none;
+    text-align: center;
 }
 
 .botones {
