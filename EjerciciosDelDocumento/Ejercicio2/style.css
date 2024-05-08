@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    overflow: none;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ingresar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6d8ac;
+}
+.regresar{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #8de0e9;
+}
+button {
+    background-color: #f38f4c;
+    border: solid 0.4px rgb(119, 47, 21);
+    margin: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+p {
+    font-size: 25px;
+}
+input {
+    font-size: 25px;
+}
