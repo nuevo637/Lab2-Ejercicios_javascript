@@ -18,4 +18,7 @@ let hoy = new Date();
 let año = hoy.getFullYear();
 let dia = hoy.getDate();
 let mes = hoy.getMonth();
-console.log(diasFaltantes(año, mes, dia))
+
+const diasArequipa = document.getElementById("diasArequipa");
+let diasRestantes = diasFaltantes(año, mes, dia);
+diasArequipa.textContent = "Faltan " + diasRestantes + " días para festejar el aniversario de Arequipa 🗻";
