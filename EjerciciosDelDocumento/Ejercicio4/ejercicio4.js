@@ -7,5 +7,5 @@ activar.addEventListener("click", () => {
     let arr = palabra.split("https://meet.google.com/");   
     let codigoSlash = arr[1].split("?")[0];
     let codigoFinal = codigoSlash.split("-").join(""); 
-    console.log(codigoFinal)
+    resultado.innerHTML += (codigoFinal);
 })
