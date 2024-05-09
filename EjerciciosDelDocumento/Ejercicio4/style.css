@@ -30,6 +30,8 @@ button {
     margin: 10px;
     border: solid 0.7px black;
     background-color: rgb(238, 208, 102);
+    cursor: pointer;
+    user-select: none;
 }
 
 input {

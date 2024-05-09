@@ -4,7 +4,8 @@ const resultado = document.getElementById('resultado');
 
 activar.addEventListener("click", () => {
     let palabra = link.value;
-    let arr = palabra.split("com/");   
-    let resultado = arr[1];
-    console.log(resultado)
+    let arr = palabra.split("https://meet.google.com/");   
+    let codigoSlash = arr[1].split("?")[0];
+    let codigoFinal = codigoSlash.split("-").join(""); 
+    console.log(codigoFinal)
 })
