@@ -33,6 +33,6 @@ calcular.addEventListener('click', () => {
         }
         let ecuacion = arg1Value + operacion + arg2Value;
         let resultOperacion = eval(ecuacion);
-        resultado.textContent = resultOperacion.toUpperCase();
+        resultado.textContent = resultOperacion;
     }
 });
