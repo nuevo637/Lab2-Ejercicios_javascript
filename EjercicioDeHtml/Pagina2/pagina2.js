@@ -11,9 +11,6 @@ botones.forEach(boton => {
         if (textoBoton !== '=') {
             operador.textContent = textoBoton;
         }
-        else if (1<0){
-            
-        }
         resultado.textContent = " ";
     });
 });
@@ -22,7 +19,6 @@ calcular.addEventListener('click', () => {
     let arg1Value = arg1.value.trim().toUpperCase();
     let arg2Value = arg2.value.trim().toUpperCase();
     let operacion = "";
-
     if (arg1Value === "V" || arg2Value === "V" || arg1Value === "F" || arg2Value === "F") {
         if (operador.textContent === "∧") {
             resultado.textContent = (arg1Value === "V" && arg2Value === "V").toString();
