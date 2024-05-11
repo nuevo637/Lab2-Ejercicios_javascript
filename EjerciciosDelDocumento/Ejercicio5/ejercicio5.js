@@ -18,10 +18,8 @@ calcularTotalBtn.addEventListener("click", () => {
 function generarTabla(numValores) {
     tabla.innerHTML = "";
     totalSuma = 0;
-
     const numColumnas = Math.ceil(Math.sqrt(numValores)); 
     const numFilas = Math.ceil(numValores / numColumnas); 
-
     for (let i = 0; i < numFilas; i++) {
         const fila = document.createElement("tr");
         for (let j = 0; j < numColumnas; j++) {

@@ -4,5 +4,4 @@ function diaActual(){
     const arr = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Sabado"];
     return arr[day];
 }
-
 console.log(diaActual());
